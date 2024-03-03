@@ -1,0 +1,34 @@
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* tailwind base  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .count-down-text-wrapper {
+    @apply text-center font-inter;
+  }
+  .count-down-el,
+  .count-down-devider-text {
+    @apply text-[1.625rem] font-medium;
+  }
+  .count-down-sub-text {
+    @apply text-yellow text-[.5rem] md:text-xs;
+  }
+  .register-input {
+    @apply bg-white px-4 py-[.875rem] border border-[#B6B6B6] rounded-md outline-none text-sm text-[#212529] font-normal focus:border-yellow;
+  }
+  .register-submit-btn {
+    @apply bg-[#FF2525] text-white text-[1.0625rem] font-bold py-[14px] px-[1.6875rem] flex items-center justify-center gap-[.625rem] rounded-md transition duration-200 hover:bg-yellow;
+  }
+  .quotes {
+    @apply font-inter text-base italic max-w-[28ch] mx-auto  mb-[.625rem] md:mx-0;
+  }
+  .author {
+    @apply font-inter font-bold text-sm text-yellow;
+  }
+  .swiper-slide.is-testimonial div {
+    @apply max-w-[28ch] mx-auto;
+  }
+}

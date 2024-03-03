@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMZ Expert</title>
+    <!-- swiper css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- page stylesheet  -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <body
+    class="bg-[#141920] text-white pt-[3.8125rem] pb-[9.3125rem] md:py-[8.25rem]"
+  >
+    <!-- countdown card section  -->
+    <section id="countdown-card-section">
+      <div class="container">
+        <!-- card-wrapper  -->
+        <div
+          class="max-w-[60.625rem] mx-auto border-[.75rem] border-[#4F5258] bg-[#F8F4F0] text-[#212529] rounded-[1.375rem] font-Montserrat mb-[5.5625rem] md:mb-[7.25rem]"
+        >
+          <!-- for padding  -->
+          <div class="pt-6 px-3 pb-6 md:p-[2.625rem]">
+            <!-- card top title  -->
+            <h1 class="font-bold mb-4 text-xl text-center md:text-2xl">
+              Free Amazon Masterclass
+            </h1>
+            <!-- card top div wrapper  -->
+            <div class="flex flex-col gap-[.625rem] lg:flex-row">
+              <!-- image wrapper  -->
+              <div class="flex justify-center items-center lg:w-[54%]">
+                <div class="flex">
+                  <a
+                    class="z-10"
+                    href="https://www.linkedin.com/in/richardbell-?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    target="_blank"
+                  >
+                    <img
+                      class="z-10 h-full -mt-[.5625rem] max-w-[11.875rem] md:max-w-[18.125rem]"
+                      src="assets/images/Abraham.webp"
+                      alt="Abraham"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/adam-feinberg-6879033b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                    target="_blank"
+                  >
+                    <img
+                      class="h-full max-w-[11.875rem] -ml-[4.875rem] md:max-w-[17.5rem] md:-ml-[7.5625rem]"
+                      src="assets/images/nana.webp"
+                      alt="nana"
+                    />
+                  </a>
+                </div>
+              </div>
+              <!-- contnet wrapper  -->
+              <div class="flex flex-col justify-center lg:w-[46%]">
+                <!-- logo wrapper  -->
+                <!-- <div class="mb-[2.0625rem]">
+                  <img
+                    src="assets/images/amzExpert-logo.svg"
+                    alt="amzExpert logo"
+                  />
+                </div> -->
+                <h1 class="font-bold mb-2 text-xl md:text-2xl">
+                  $100m Amazon sellers reveal.
+                </h1>
+                <p class="text-base font-medium leading-6">
+                  Free 60 minute action packed webinar will go through all the
+                  basics of selling on Amazon
+                </p>
+                <!-- list wrapper  -->
+                <ul class="space-y-[.9375rem] mt-[1.1875rem] md:mt-[1.375rem]">
+                  <li class="flex items-start gap-[.625rem]">
+                    <!-- yellow tick  -->
+                    <img
+                      src="assets/images/check-circle.svg"
+                      alt="check circle"
+                    />
+                    <!-- list text  -->
+                    <p class="text-sm font-medium leading-[1.225rem]">
+                      How we find our winning products
+                    </p>
+                  </li>
+                  <li class="flex items-start gap-[.625rem]">
+                    <!-- yellow tick  -->
+                    <img
+                      src="assets/images/check-circle.svg"
+                      alt="check circle"
+                    />
+                    <!-- list text  -->
+                    <p class="text-sm font-medium leading-[1.225rem]">
+                      A team that sold their Amazon biz for $100m
+                    </p>
+                  </li>
+                  <li class="flex items-start gap-[.625rem]">
+                    <!-- yellow tick  -->
+                    <img
+                      src="assets/images/check-circle.svg"
+                      alt="check circle"
+                    />
+                    <!-- list text  -->
+                    <div>
+                      <p
+                        class="text-sm font-medium leading-[1.225rem] mb-[.625rem]"
+                      >
+                        Plus a bonus gift of all the custom trackers we use to
+                        manage our Amazon store
+                      </p>
+                      <p
+                        class="text-[#777879] text-xs font-medium leading-[1.05rem]"
+                      >
+                        *a free download to anyone that attends live
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- countdown wrapper  -->
+          </div>
+          <div
+            class="bg-[#101010] text-white flex flex-col justify-center items-center gap-4 py-4 mb-6 md:mb-5 md:flex-row"
+          >
+            <h2 class="text-[1.0625rem] font-semibold uppercase md:mr-6">
+              Webinar starts in
+            </h2>
+            <!-- all count down element wrapper  -->
+            <div id="expired" class="flex items-center gap-4">
+              <!-- count down wrapper  -->
+              <div class="count-down-text-wrapper">
+                <p id="days" class="count-down-el mb-1">00</p>
+                <p class="count-down-sub-text">Days</p>
+              </div>
+              <p class="count-down-devider-text">:</p>
+              <!-- count down wrapper  -->
+              <div class="count-down-text-wrapper">
+                <p id="Hours" class="count-down-el mb-1">00</p>
+                <p class="count-down-sub-text">Hours</p>
+              </div>
+              <p class="count-down-devider-text">:</p>
+              <!-- count down wrapper  -->
+              <div class="count-down-text-wrapper">
+                <p id="minutes" class="count-down-el mb-1">00</p>
+                <p class="count-down-sub-text">MINUTES</p>
+              </div>
+              <p class="count-down-devider-text">:</p>
+              <!-- count down wrapper  -->
+              <div class="count-down-text-wrapper">
+                <p id="seconds" class="count-down-el mb-1">00</p>
+                <p class="count-down-sub-text">SECONDS</p>
+              </div>
+            </div>
+          </div>
+          <!-- register form wrapper   -->
+          <div class="max-w-[54.1875rem] mx-auto mb-9 md:mb-[1.9375rem]">
+            <form
+              action="#"
+              class="flex flex-col gap-[.625rem] px-5 md:max-w-[38.6875rem] md:mx-auto md:px-0 lg:max-w-full lg:flex-row"
+            >
+              <!-- name input  -->
+              <input
+                class="register-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+              />
+              <!-- tel input  -->
+              <input
+                class="register-input"
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Telephone"
+              />
+              <!-- email input  -->
+              <input
+                class="register-input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email address"
+              />
+              <!-- submit btn  -->
+              <button type="submit" class="register-submit-btn">
+                <!-- right arrow  -->
+                <svg
+                  width="18"
+                  height="14"
+                  viewBox="0 0 18 14"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 7H17M17 7L11 13M17 7L11 1"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Register Now
+                <!-- left arrow  -->
+                <svg
+                  width="18"
+                  height="14"
+                  viewBox="0 0 18 14"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 7H1M1 7L7 1M1 7L7 13"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+          <!-- prize div  -->
+          <div class="flex justify-center mb-[1.9375rem] md:mb-[2.5625rem]">
+            <img src="assets/images/amzExpert-logo.svg" alt="amzExpert logo" />
+          </div>
+          <!-- <div
+            class="max-w-[38.6875rem] mx-5 rounded-xl bg-[#101010] text-white py-[.375rem] px-2 flex items-center gap-3 mb-[1.9375rem] md:mb-[2.5625rem] md:mx-auto"
+          >
+            <img src="assets/images/prize.webp" alt="prize" />
+            <p class="text-sm font-medium">
+              a free prize draw at the end where we offer our premium
+              accelerator service to one lucky attendee absolutely free
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- countdown card section end -->
+    <!-- slider section  -->
+    <section id="testimonial-section" class="mb-[3.5625rem]">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper is-testimonial">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper is-testimonial">
+            <!-- Slides -->
+            <div class="swiper-slide is-testimonial">
+              <div>
+                <p class="quotes">
+                  “Thanks Kat, extremely useful as always! Have a lovely
+                  weekend!”
+                </p>
+                <p class="author">PAUL</p>
+              </div>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide is-testimonial">
+              <p class="quotes">
+                "Thank you so much for this great overview training!!"
+              </p>
+              <div>
+                <p class="author">DAVID</p>
+              </div>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide is-testimonial">
+              <div>
+                <p class="quotes">"Thank you! this was great!!"</p>
+                <p class="author">MOLY</p>
+              </div>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide is-testimonial">
+              <div>
+                <p class="quotes">
+                  "Thank you for your time. A very good session, worth waking up
+                  at 5am!"
+                </p>
+                <p class="author">Muhammad</p>
+              </div>
+            </div>
+            <!-- Slides -->
+            <div class="swiper-slide is-testimonial">
+              <div>
+                <p class="quotes">"Thank you for the amazing information :)"</p>
+                <p class="author">Mariana</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- slider section end -->
+    <!-- footer  -->
+    <footer id="footer">
+      <div class="container">
+        <p class="font-inter text-sm uppercase text-center mb-[3.5456rem]">
+          As featured in
+        </p>
+        <!-- logos  -->
+        <div class="flex justify-center items-center gap-[4.0625rem]">
+          <img src="assets/images/tech.svg" alt="tech logo" />
+          <img src="assets/images/business.svg" alt="business logo" />
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <!-- scripts  -->
+    <!-- swiper js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- page main js  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
